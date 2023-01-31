@@ -79,8 +79,8 @@ Sharks tend to attack young ladies but older boys. Despite boys being older on a
 
 **5. Depending on what activity girls do, it is more likely to receive a shark attack.**
 
-![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_girls.jpg?raw=true)
-![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_boys.jpg?raw=true)
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_female.jpg?raw=true)
+![alt_text](
 
 
 
