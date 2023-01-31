@@ -80,7 +80,7 @@ Sharks tend to attack young ladies but older boys. Despite boys being older on a
 **5. Depending on what activity girls do, it is more likely to receive a shark attack.**
 
 ![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_female.jpg?raw=true)
-![alt_text](
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_boys.png?raw=true)
 
 
 
@@ -93,5 +93,10 @@ And yes, out of all the attacks, the activity that seems to have more difference
 
 
 
+
+The repo contains two files and one folder: 'Clean','Explore' and 'Images'.
+Clean: Code written in python. With defined functions in order to get rid of blank columns and rows, duplicates, and useless data.
+Explore: Code written in python. With defined functions and methods to calculate, group, display the results and save them as image.
+Images: All the plots saved in one folder. 
 
 
