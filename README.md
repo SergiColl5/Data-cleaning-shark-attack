@@ -1,4 +1,4 @@
-#Are sharks sexist?
+# Are sharks sexist?
 
 
 I guess this is a question that everyone is wanting to know the answer for. 
@@ -12,15 +12,15 @@ After looking at this data set and clean it. I wanted to see if there is an exis
 
 I listed four hypotheses to help me understand the patterns.
 
-1. Shark's nationality affects how sexist they are.
+### 1. Shark's nationality affects how sexist they are.
 
-2. There are species more sexist than others. 
+### 2. There are species more sexist than others. 
 
-3. Female victims suffer a fatal attack more often than male.
+### 3. Female victims suffer a fatal attack more often than male.
 	
-4. Sharks prefer young ladies rather than old boys.
+### 4. Sharks prefer young ladies rather than old boys.
 
-5. Depending on what activity you do, it is more likely to receive a shark attack.
+### 5. Depending on what activity girls do, it is more likely to receive a shark attack.
 
 
 These hypotheses will drive my investigation and will lead us to understand if sharks are sexist or not, if there is a specific species that it's still stuck in the last century, if sharks are more sexist in an specific areas of the world, and if the sharks tend
@@ -36,7 +36,7 @@ I also wanted to group the values of the columns that had many different inputs.
 Once everything looked decent enough, I started preparing the plots for the different hypothesis.
 
 
- 1. Shark's nationality affects how sexist they are.
+ **1. Shark's nationality affects how sexist they are.**
  
 To know the nationality and its relation with the sex of the victim. I needed to know how many women had an incident with a shark by country. Since it is not useful to have total volumes, I added an additional column with the percentage of female victims out of the total cases per country. I ended up creating a crosstab, grouping by country and having the totals per female, male, and the percentage of female victims. 
 
@@ -44,7 +44,7 @@ To know the nationality and its relation with the sex of the victim. I needed to
 
 As can be seen, sharks from the Mediterranean area are more likely to go after women than sharks from other parts of the world. Be careful out there, ladies…
 
-2. There are species more sexist than others. 
+**2. There are species more sexist than others.**
 
 Believe it or not, sharks around can influence the behavior to each other. Maybe. Let’s see.
 In order to obtain this information, I needed to group the species and calculate the percentage of women they attacked and below we can see the results. 
@@ -58,27 +58,35 @@ In order to obtain this information, I needed to group the species and calculate
 
 In the end, there is not any species way worse than the others. I guess they just attack whatever they see moving and splashing. Let’s move onto the third hypothesis.
 
-3. Female victims suffer a fatal attack more often than male.
+**3. Female victims suffer a fatal attack more often than male.**
 
 This time, I had to group by the sex of the victim and see what was the result of the attacks, whether they survived or not. Who do you think survive more often? Girls or boys?
 
-
-
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/F.jpg?raw=true)
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/M.jpg?raw=true)
 
 The answer is pretty clear, girls know better in terms of handling weird situations with strangers approaching them. But what is it because they are older and more experimented than the boys that are attacked? Let’s check our fourth hypothesis.
 
-4. Sharks prefer young ladies rather than old boys.
+**4. Sharks prefer young ladies rather than old boys.**
+
 To know the answer more accurately, I split the results by species, to see if there was a pattern. And here it is.
+
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/species_age.jpg?raw=true)
 
 
 Sharks tend to attack young ladies but older boys. Despite boys being older on average, girls manage to survive more often, maybe we should reconsider some things… Anyways, our last hypothesis it is related to the activity of the victims.
 
 
-5. Depending on what activity you do, it is more likely to receive a shark attack.
+**5. Depending on what activity girls do, it is more likely to receive a shark attack.**
+
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_girls.jpg?raw=true)
+![alt_text](https://github.com/SergiColl5/Data-cleaning-shark-attack/blob/main/images/activity_boys.jpg?raw=true)
+
+
 
 And yes, out of all the attacks, the activity that seems to have more difference is swimming. Boys are attacked more or less the same no matter the activity. But when it comes to girls, sharks prefer to have them directly in the water, instead of smashing a boat or a surfboard to get their victims.
 
-In conclusion, we have seen that there are some differences when it comes to sex, mostly because the majority of the attacks happened to boys. But in terms of preferences between ages and activities, we see a bit of a pattern. Do you think sharks can recognize if they are attacking a girl or a boy?
+### In conclusion, we have seen that there are some differences when it comes to sex, mostly because the majority of the attacks happened to boys. But in terms of preferences between ages and activities, we see a bit of a pattern. Do you think sharks can recognize if they are attacking a girl or a boy?
 
 
 
