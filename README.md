@@ -94,4 +94,9 @@ And yes, out of all the attacks, the activity that seems to have more difference
 
 
 
+The repo contains two files and one folder: 'Clean','Explore' and 'Images'.
+Clean: Code written in python. With defined functions in order to get rid of blank columns and rows, duplicates, and useless data.
+Explore: Code written in python. With defined functions and methods to calculate, group, display the results and save them as image.
+Images: All the plots saved in one folder. 
+
 
