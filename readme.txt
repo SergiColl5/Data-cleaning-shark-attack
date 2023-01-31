@@ -34,8 +34,12 @@ To sum up, I removed all the columns and rows that didn't contain any data or ve
 I looked for duplicated values, but this dataset didn't have any. 
 I also wanted to group the values of the columns that had many different inputs. As an example, instead of having: ' Swiming fast, swiming slow, swiming and having fun', I wanted to have one group called 'swiming'. After doing the same process for a few columns, I managed to have more consistent data.
 Once everything looked decent enough, I started preparing the plots for the different hypothesis.
+
+
  1. Shark's nationality affects how sexist they are.
+ 
 To know the nationality and its relation with the sex of the victim. I needed to know how many women had an incident with a shark by country. Since it is not useful to have total volumes, I added an additional column with the percentage of female victims out of the total cases per country. I ended up creating a crosstab, grouping by country and having the totals per female, male, and the percentage of female victims. 
+
 
 As can be seen, sharks from the Mediterranean area are more likely to go after women than sharks from other parts of the world. Be careful out there, ladies…
 
